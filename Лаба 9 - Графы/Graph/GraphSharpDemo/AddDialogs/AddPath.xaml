@@ -1,0 +1,16 @@
+﻿<Window x:Class="GraphSharpDemo.AddDialogs.AddPath"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddPath" Height="188" Width="300">
+    <Grid Height="150">
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,28,0,0" Name="textBoxFrom" VerticalAlignment="Top" Width="82" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="162,28,0,0" Name="textBoxTo" VerticalAlignment="Top" Width="82" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="11,12,0,0" Name="textBlock1" Text="Откуда:" VerticalAlignment="Top" Width="83" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="162,12,0,0" Name="textBlock2" Text="Куда:" VerticalAlignment="Top" Width="83" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="11,69,0,0" Name="textBoxLength" VerticalAlignment="Top" Width="82" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="10,53,0,0" Name="textBlock3" Text="Длина:" VerticalAlignment="Top" Width="83" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="162,69,0,0" Name="textBoxTax" VerticalAlignment="Top" Width="82" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="161,53,0,0" Name="textBlock4" Text="Пошлина:" VerticalAlignment="Top" Width="83" />
+        <Button Content="Добавить" Height="37" HorizontalAlignment="Left" Margin="82,105,0,0" Name="button1" VerticalAlignment="Top" Width="101" Click="button1_Click" />
+    </Grid>
+</Window>

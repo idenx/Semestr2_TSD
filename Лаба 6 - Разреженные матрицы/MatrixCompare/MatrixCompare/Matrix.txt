@@ -1,0 +1,76 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace MatrixCompare
+{
+    class Matrix
+    {
+        double[,] matrix;
+        int RowsNum, ColsNum;
+
+        public Matrix(int RowsNum, int ColsNum)
+        {
+            this.RowsNum = RowsNum;
+            this.ColsNum = ColsNum;
+            this.matrix = new double[RowsNum, ColsNum];
+        }
+
+        public double this[int i, int j]
+        {
+            set { matrix[i, j] = value; }
+            get { return matrix[i, j]; }
+        }
+
+        public int Rows
+        {
+            get { return RowsNum; }
+        }
+
+        // Возвращает число столбцов в матрице
+        public int Columns
+        {
+            get { return ColsNum; }
+        }
+
+	public Matrix MulToVector(Double[] Vector)
+	{
+		Matrix Result = new Matrix(this.RowsNum, 1);
+		for (int i = 0; i < this.RowsNum; ++i) {
+			Result[i, 1] = 0;
+			for (int j = 0; j < this.ColsNum; ++j) {
+				Result[i, 1] += this.matrix[i, j] * Vector[j];
+		}
+		return Result;	
+    }
+	
+	public String ToString() {
+			String Result = "";
+			for (int i = 0; i < this.RowsNum; ++i) {
+				for (int j = 0; j < this.ColsNum; ++j) {
+					Result += Convert::ToString(matrix[i, j]) + "\t";
+				}
+				Result += "\n";
+			}
+			return Result;
+		}
+
+	public GenerateRandom(int NullPercentage)
+	{
+		int rnd;
+		for (int i = 0; i < this.RowsNum; ++i) 
+		{
+			for (int j = 0; j < this.ColsNum; ++j)
+			{
+				rnd = Random(10); // 0..9
+				if (rnd >= NullPercentage / 10)
+					this.matrix[i, j] = 0;
+				else
+					this.matrix = Random() + 1; // Здесь уже произвольное ненулевое число
+			}
+		}
+	}
+
+
+}

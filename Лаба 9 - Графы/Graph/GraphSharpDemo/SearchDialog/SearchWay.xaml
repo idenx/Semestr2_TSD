@@ -1,0 +1,12 @@
+﻿<Window x:Class="GraphSharpDemo.SearchDialog.SearchWay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SearchWay" Height="156" Width="283">
+    <Grid Height="117" Width="262">
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="12,26,0,0" Name="textBoxFrom" VerticalAlignment="Top" Width="82" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="162,26,0,0" Name="textBoxTo" VerticalAlignment="Top" Width="82" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="11,10,0,0" Name="textBlock1" Text="Откуда:" VerticalAlignment="Top" Width="83" />
+        <TextBlock Height="23" HorizontalAlignment="Left" Margin="162,10,0,0" Name="textBlock2" Text="Куда:" VerticalAlignment="Top" Width="83" />
+        <Button Content="Добавить" Height="37" HorizontalAlignment="Left" Margin="80,68,0,0" Name="button1" VerticalAlignment="Top" Width="101" Click="button1_Click" />
+    </Grid>
+</Window>

@@ -1,0 +1,221 @@
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
+#include "stack.h"
+#include "arraystack.h"
+#include "liststack.h"
+#include <QPalette>
+#include <QColor>
+#include <time.h>
+#include <windows.h>
+#include "error.h"
+#include <QTextCodec>
+#include <QMessageBox>
+#include <fstream>
+
+using namespace std;
+
+const int MAX_STACK_SIZE = 2;
+
+
+inline bool isOpeningBracket(QChar b);
+inline bool matchingBrackets(QChar a, QChar b);
+
+
+MainWindow::MainWindow(QWidget *parent) :
+    QMainWindow(parent),
+    ui(new Ui::MainWindow)
+{
+    ui->setupUi(this);
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui;
+}
+
+void MainWindow::on_pushButton_clicked()
+{
+    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("CP1251"));
+    StackType type;
+    if (ui->radioButton_3->isChecked())
+        type = Array;
+    else
+        type = List;
+
+    QString text = ui->lineEdit->text().trimmed();
+    if (text.length() == 0) {
+        Error error((QString) "Пустой ввод!");
+        error.Show();
+        return;
+    }
+    if (!(text.contains('(') || text.contains(')') || text.contains('[') || text.contains(']')
+             || text.contains('{') || text.contains('}'))) {
+        Error error((QString) "Введенное выражение не содержит скобок!");
+        error.Show();
+        return;
+    }
+    ui->textEdit->clear();
+
+    // Проверка на правильность скобок
+    bool result;
+    try {
+        result = isRightBrackets(text, type, true);
+
+        // Вывод результата проверки
+        QColor color;
+        QPalette::ColorRole cr;
+        QPalette palette;
+        if (result) {
+            ui->label_2->setText("Скобки расставлены верно!");
+            color.setNamedColor("green");
+
+        } else {
+            ui->label_2->setText("Скобки расставлены неверно!");
+            color.setNamedColor("red");
+        }
+        cr = QPalette::WindowText;
+        palette.setColor(cr, color);
+        ui->label_2->setPalette(palette);
+    } catch(Error err) {
+        this->Log((QString *) &(err.getErrorDescription()));
+        err.Show();
+    }
+}
+
+bool MainWindow::isRightBrackets(QString &st, StackType type, bool isLogEnabled) {
+#define LOG if (isLogEnabled) Log(stack->getLog());
+
+    ArrayStack<QChar> aStack(MAX_STACK_SIZE);
+    ListStack<QChar> lStack;
+
+    Stack<QChar> *stack;
+    if (type == Array)
+        stack = &aStack;
+    else
+        stack = &lStack;
+
+    LOG;
+    for (int i = 0; i < st.length(); i++) {
+        if ((st[i] == '{') || (st[i] == '}') || (st[i] == '[') || (st[i] == ']') ||
+                (st[i] == '(') || (st[i] == ')'))
+        {
+            if (isOpeningBracket(st[i])) {
+                stack->Push(st[i]);
+                LOG;
+            }
+            else {
+                if (stack->isEmpty())
+                    return false;
+                if ((matchingBrackets(stack->Top(), st[i]))) {
+                    LOG;
+                    stack->Pop();
+                    LOG;
+                } else {
+                    stack->Free();
+                    return false;
+                }
+            }
+        }
+    }
+
+    bool Result = true;
+    if (!(stack->isEmpty())) {
+        Result = false;
+        stack->Free();
+        LOG;
+    }
+    return Result;
+}
+
+inline bool isOpeningBracket(QChar b) {
+    return ((b == '{') || (b == '[') || (b == '('));
+}
+
+inline bool matchingBrackets(QChar a, QChar b) {
+    if (a == '{')
+        return (b == '}');
+
+    if (a == '[')
+        return (b == ']');
+
+    if (a == '(')
+        return (b == ')');
+
+    return false;
+}
+
+inline void MainWindow::Log(QString *st) {
+    ui->textEdit->setText(ui->textEdit->toPlainText() + *st + "\n");
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    const int IterationsCount = 10000;
+    const int TEST_MAX_SIZE = 1024;
+    const QString TEST_FILE_NAME = "Test.txt";
+    char *tmp = new char[TEST_MAX_SIZE];
+
+    ifstream *File = new ifstream(TEST_FILE_NAME);
+    if (File != 0)
+        File->getline(tmp, TEST_MAX_SIZE);
+    QString TestString;
+    TestString = TestString.fromAscii(tmp);
+
+    StackType type;
+    DWORD cListTime;
+    DWORD cArrayTime;
+    double ListTime;
+    double ArrayTime;
+
+    int OnePercentTime = IterationsCount / 50;
+    ui->progressBar->setEnabled(true);
+    ui->progressBar->setValue(0);
+
+    try {
+        // Измеряем время при организации стека как списка
+        type = List;
+        cListTime = GetTickCount();
+        for (int i = 0; i < IterationsCount; i++) {
+            isRightBrackets(TestString, type, false);
+            if (i % OnePercentTime == 0)
+                ui->progressBar->setValue(ui->progressBar->value() + 1);
+        }
+        ListTime = (double) ((GetTickCount() - cListTime) / 1000.0);
+
+        // Измеряем время при организации стека как массива
+        type = Array;
+        cArrayTime = GetTickCount();
+        for (int i = 0; i < IterationsCount; i++) {
+            isRightBrackets(TestString, type, false);
+            if (i % OnePercentTime == 0)
+                ui->progressBar->setValue(ui->progressBar->value() + 1);
+        }
+        ArrayTime = (double) ((GetTickCount() - cArrayTime) / 1000.0);
+    } catch(Error error) {
+        error.Show();
+    }
+
+    QTextCodec::setCodecForCStrings(QTextCodec::codecForName("CP1251"));
+    QString MsgText = "Время при организации стека списком: " + QString::number((double) ListTime, 'g', 6) +
+            "с\nВремя при организации стека массивом: " + QString::number((double) ArrayTime, 'g', 6) + "с";
+    QMessageBox msg;
+    msg.setWindowTitle("Сравнение времени");
+    msg.setText(MsgText);
+    msg.exec();
+
+    ui->progressBar->setValue(0);
+    ui->progressBar->setEnabled(false);
+}
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    ui->lineEdit->clear();
+    ui->textEdit->clear();
+    ui->label_2->clear();
+}
+
+void MainWindow::on_lineEdit_textChanged(const QString &arg1)
+{
+    ui->textEdit->clear();
+    ui->label_2->clear();
+}

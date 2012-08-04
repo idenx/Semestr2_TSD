@@ -1,0 +1,100 @@
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.exe
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.pdb
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.Controls.dll
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.dll
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\QuickGraph.dll
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\WPFExtensions.dll
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\App.g.cs
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_Content.g.cs
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.cache
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.lref
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.g.resources
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.Properties.Resources.resources
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.exe
+C:\Users\WIN7LAP001\Desktop\In Progress\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.pdb
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.exe
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.pdb
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.exe
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.pdb
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.Controls.dll
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.dll
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\QuickGraph.dll
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\WPFExtensions.dll
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.g.cs
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\App.g.cs
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_Content.g.cs
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.cache
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.lref
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.baml
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.g.resources
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.Properties.Resources.resources
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.Contracts.dll
+C:\Users\barbers\Desktop\Downloads\GraphSharpDemo\GraphSharpDemo\GraphSharpDemo\bin\Debug\Microsoft.Contracts.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.exe
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharpDemo.pdb
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.Contracts.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.Controls.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\GraphSharp.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\Microsoft.Contracts.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\QuickGraph.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\bin\Debug\WPFExtensions.dll
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddCity.baml
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddPath.baml
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddCity.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddPath.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\App.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_Content.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.cache
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.lref
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\MainWindow.baml
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.g.resources
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.Properties.Resources.resources
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.exe
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.pdb
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\SearchDialog\SearchWay.baml
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\SearchDialog\SearchWay.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\GraphSharpDemo\GraphSharpDemo\obj\x86\Debug\GraphView.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.exe
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.pdb
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\GraphSharpDemo.exe
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\GraphSharpDemo.pdb
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\GraphSharp.Contracts.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\GraphSharp.Controls.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\GraphSharp.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\Microsoft.Contracts.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\QuickGraph.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\bin\Debug\WPFExtensions.dll
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddCity.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddPath.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\SearchDialog\SearchWay.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddCity.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\AddDialogs\AddPath.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\MainWindow.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\SearchDialog\SearchWay.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\App.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_Content.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.cache
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo_MarkupCompile.lref
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphView.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\MainWindow.baml
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.g.resources
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GraphSharpDemo.Properties.Resources.resources
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\iDen\Рабочий стол\Graph\GraphSharpDemo\obj\x86\Debug\GenerateResource.write.1.tlog
